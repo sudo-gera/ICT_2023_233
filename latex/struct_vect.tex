@@ -1,0 +1,157 @@
+\doxysection{Vect\texorpdfstring{$<$}{<} T \texorpdfstring{$>$}{>} Class Template Reference}
+\hypertarget{struct_vect}{}\label{struct_vect}\index{Vect$<$ T $>$@{Vect$<$ T $>$}}
+
+
+2D geometry vector  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+auto \& \mbox{\hyperlink{struct_vect_aa5fac31ef309f5276a9d03466d80024d}{operator\texorpdfstring{$\ast$}{*}=}} (T left)
+\begin{DoxyCompactList}\small\item\em multiplying by a scalar \end{DoxyCompactList}\item 
+auto \& \mbox{\hyperlink{struct_vect_a033c3bcbd3d612ced20faee02100d1a9}{operator/=}} (T left)
+\begin{DoxyCompactList}\small\item\em dividing by a scalar \end{DoxyCompactList}\item 
+auto \& \mbox{\hyperlink{struct_vect_afad86ca2e664882c5701014a37ed1bcf}{operator+=}} (\mbox{\hyperlink{struct_vect}{Vect}}$<$ T $>$ left)
+\begin{DoxyCompactList}\small\item\em adding \doxylink{struct_vect}{Vect} \end{DoxyCompactList}\item 
+auto \& \mbox{\hyperlink{struct_vect_a15b71ac952bd48be9db9bdb504129a39}{operator-\/=}} (\mbox{\hyperlink{struct_vect}{Vect}}$<$ T $>$ left)
+\begin{DoxyCompactList}\small\item\em subtracting \doxylink{struct_vect}{Vect} \end{DoxyCompactList}\item 
+\mbox{\hyperlink{struct_vect}{Vect}} \mbox{\hyperlink{struct_vect_a20b79d34b3934deb7a6873a525a20809}{operator-\/}} () const
+\begin{DoxyCompactList}\small\item\em inverse \end{DoxyCompactList}\item 
+auto \mbox{\hyperlink{struct_vect_a6450ceb7339b94e01d6b9f05ba2160c0}{Sq\+Abs}} ()
+\begin{DoxyCompactList}\small\item\em module squared \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+T \mbox{\hyperlink{struct_vect_aaae8e033fd8c09bc939e1b2d112cd08a}{x}} = 0
+\begin{DoxyCompactList}\small\item\em x coordinate \end{DoxyCompactList}\item 
+T \mbox{\hyperlink{struct_vect_ae473746fe9f1385d10e6ae33d3c23b33}{y}} = 0
+\begin{DoxyCompactList}\small\item\em y coordinate \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\subsubsection*{template$<$typename T$>$\newline
+class Vect$<$ T $>$}
+2D geometry vector 
+
+x,y -\/ coordinaes
+
+supports common vector operations 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{struct_vect_aa5fac31ef309f5276a9d03466d80024d}\label{struct_vect_aa5fac31ef309f5276a9d03466d80024d} 
+\index{Vect$<$ T $>$@{Vect$<$ T $>$}!operator\texorpdfstring{$\ast$}{*}=@{operator\texorpdfstring{$\ast$}{*}=}}
+\index{operator\texorpdfstring{$\ast$}{*}=@{operator\texorpdfstring{$\ast$}{*}=}!Vect$<$ T $>$@{Vect$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{operator\texorpdfstring{$\ast$}{*}=()}{operator*=()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+auto \& \mbox{\hyperlink{struct_vect}{Vect}}$<$ T $>$\+::operator\texorpdfstring{$\ast$}{*}= (\begin{DoxyParamCaption}\item[{T}]{left }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+multiplying by a scalar 
+
+
+\begin{DoxyParams}{Parameters}
+{\em left} & -\/ scalar \\
+\hline
+\end{DoxyParams}
+\Hypertarget{struct_vect_afad86ca2e664882c5701014a37ed1bcf}\label{struct_vect_afad86ca2e664882c5701014a37ed1bcf} 
+\index{Vect$<$ T $>$@{Vect$<$ T $>$}!operator+=@{operator+=}}
+\index{operator+=@{operator+=}!Vect$<$ T $>$@{Vect$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{operator+=()}{operator+=()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+auto \& \mbox{\hyperlink{struct_vect}{Vect}}$<$ T $>$\+::operator+= (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_vect}{Vect}}$<$ T $>$}]{left }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+adding \doxylink{struct_vect}{Vect} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em left} & -\/ \doxylink{struct_vect}{Vect} \\
+\hline
+\end{DoxyParams}
+\Hypertarget{struct_vect_a20b79d34b3934deb7a6873a525a20809}\label{struct_vect_a20b79d34b3934deb7a6873a525a20809} 
+\index{Vect$<$ T $>$@{Vect$<$ T $>$}!operator-\/@{operator-\/}}
+\index{operator-\/@{operator-\/}!Vect$<$ T $>$@{Vect$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{operator-\/()}{operator-()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{struct_vect}{Vect}} \mbox{\hyperlink{struct_vect}{Vect}}$<$ T $>$\+::operator-\/ (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+inverse 
+
+\Hypertarget{struct_vect_a15b71ac952bd48be9db9bdb504129a39}\label{struct_vect_a15b71ac952bd48be9db9bdb504129a39} 
+\index{Vect$<$ T $>$@{Vect$<$ T $>$}!operator-\/=@{operator-\/=}}
+\index{operator-\/=@{operator-\/=}!Vect$<$ T $>$@{Vect$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{operator-\/=()}{operator-=()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+auto \& \mbox{\hyperlink{struct_vect}{Vect}}$<$ T $>$\+::operator-\/= (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_vect}{Vect}}$<$ T $>$}]{left }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+subtracting \doxylink{struct_vect}{Vect} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em left} & -\/ \doxylink{struct_vect}{Vect} \\
+\hline
+\end{DoxyParams}
+\Hypertarget{struct_vect_a033c3bcbd3d612ced20faee02100d1a9}\label{struct_vect_a033c3bcbd3d612ced20faee02100d1a9} 
+\index{Vect$<$ T $>$@{Vect$<$ T $>$}!operator/=@{operator/=}}
+\index{operator/=@{operator/=}!Vect$<$ T $>$@{Vect$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{operator/=()}{operator/=()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+auto \& \mbox{\hyperlink{struct_vect}{Vect}}$<$ T $>$\+::operator/= (\begin{DoxyParamCaption}\item[{T}]{left }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+dividing by a scalar 
+
+
+\begin{DoxyParams}{Parameters}
+{\em left} & -\/ scalar \\
+\hline
+\end{DoxyParams}
+\Hypertarget{struct_vect_a6450ceb7339b94e01d6b9f05ba2160c0}\label{struct_vect_a6450ceb7339b94e01d6b9f05ba2160c0} 
+\index{Vect$<$ T $>$@{Vect$<$ T $>$}!SqAbs@{SqAbs}}
+\index{SqAbs@{SqAbs}!Vect$<$ T $>$@{Vect$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{SqAbs()}{SqAbs()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+auto \mbox{\hyperlink{struct_vect}{Vect}}$<$ T $>$\+::\+Sq\+Abs (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+module squared 
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{struct_vect_aaae8e033fd8c09bc939e1b2d112cd08a}\label{struct_vect_aaae8e033fd8c09bc939e1b2d112cd08a} 
+\index{Vect$<$ T $>$@{Vect$<$ T $>$}!x@{x}}
+\index{x@{x}!Vect$<$ T $>$@{Vect$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{x}{x}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T \mbox{\hyperlink{struct_vect}{Vect}}$<$ T $>$\+::x = 0}
+
+
+
+x coordinate 
+
+\Hypertarget{struct_vect_ae473746fe9f1385d10e6ae33d3c23b33}\label{struct_vect_ae473746fe9f1385d10e6ae33d3c23b33} 
+\index{Vect$<$ T $>$@{Vect$<$ T $>$}!y@{y}}
+\index{y@{y}!Vect$<$ T $>$@{Vect$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{y}{y}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+T \mbox{\hyperlink{struct_vect}{Vect}}$<$ T $>$\+::y = 0}
+
+
+
+y coordinate 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_b_0b___0b_8cpp}{B\$\+\_\+\$.\+cpp}}\end{DoxyCompactItemize}
